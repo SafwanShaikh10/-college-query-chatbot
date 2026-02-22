@@ -1,6 +1,6 @@
 # 🎓 College Query Chatbot
 
-# A Langflow-based AI chatbot that helps answer *college-related queries* using *Ollama’s local LLMs* — built completely *without coding*.
+# A Langflow-based AI chatbot that helps answer *college-related queries* using *Ollama’s local LLMs* 
 
 # -----------------------------------------------------------
 # 🚀 How to Use This Project
