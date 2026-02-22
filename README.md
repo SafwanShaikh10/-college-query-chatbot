@@ -48,5 +48,5 @@
 # -----------------------------------------------------------
 # 👨‍💻 Author
 # -----------------------------------------------------------
-# Prem Mustari
+# Prem Mustari and Safwan Shaikh
 # Built with ❤ using Langflow (No-Code AI Builder) and Ollama.
