@@ -1,52 +1,21 @@
-# 🎓 College Query Chatbot
+# College Query Chatbot
 
-# A Langflow-based AI chatbot that helps answer *college-related queries* using *Ollama’s local LLMs* 
+A Langflow-based artificial intelligence chatbot designed to provide automated responses to college-related inquiries. This project utilizes local Large Language Models (LLMs) via Ollama, ensuring data privacy and reducing reliance on cloud-based APIs.
 
-# -----------------------------------------------------------
-# 🚀 How to Use This Project
-# -----------------------------------------------------------
+## Features
+- Natural Language Processing: Understands and responds to complex student and faculty queries.
+- Local Execution: Powered by Ollama to run LLMs locally for enhanced performance and security.
+- Langflow Integration: Orchestrated using Langflow for a robust and modular conversation flow.
+- No-Code Architecture: Built using modular AI components for easy maintenance and scaling.
 
-# Step 1: Pull the Model
-# Run the following command in your terminal:
-# ollama pull llama3.2
+## Technology Stack
+- Langflow (Orchestration)
+- Ollama (Local LLM Serving)
+- Python (Runtime Environment)
 
-# Step 2: Install Langflow
-# Make sure Python 3.10+ is installed, then run:
-# pip install langflow
-
-# Step 3: Launch Langflow
-# Start Langflow with:
-# langflow run
-# It will open automatically in your browser at:
-# http://localhost:7860
-
-# Step 4: Import the Chatbot
-# 1. Click *Import Flow* in Langflow.
-# 2. Upload the file:
-#    3c695fbc-f1b2-48d3-bc00-2a5e89eb3641.json
-# 3. Ensure the *Ollama base URL* is set to:
-#    http://localhost:11434
-
-# Step 5: Start Chatting
-# Open the *Playground*, type a message, and the chatbot will respond using your local LLM model!
-
-# -----------------------------------------------------------
-# ⚙ Requirements
-# -----------------------------------------------------------
-# - Python 3.10+
-# - Langflow ≥ 1.3.4
-# - Ollama installed locally
-# - Pulled LLM model (e.g. llama3.2 or llama2)
-
-# -----------------------------------------------------------
-# 🧩 Customization
-# -----------------------------------------------------------
-# - Edit the *Prompt Node* inside Langflow to change the chatbot’s tone or behavior.
-# - Switch to a different *Ollama model* like mistral or phi3 for varied results.
-# - Adjust *temperature* for creative or focused responses.
-
-# -----------------------------------------------------------
-# 👨‍💻 Author
-# -----------------------------------------------------------
-# Prem Mustari and Safwan Shaikh
-# Built with ❤ using Langflow (No-Code AI Builder) and Ollama.
+## Installation
+1. Install Ollama and pull the required model (e.g., Llama 3).
+2. Install Langflow via pip:
+   pip install langflow
+3. Import the provided flow file into your Langflow interface.
+4. Run the flow to start the chatbot.
