@@ -1,21 +1,14 @@
-# College Query Chatbot
+# College Query Intelligence: Your 24/7 Campus Guide
 
-A Langflow-based artificial intelligence chatbot designed to provide automated responses to college-related inquiries. This project utilizes local Large Language Models (LLMs) via Ollama, ensuring data privacy and reducing reliance on cloud-based APIs.
+Imagine a campus where every student's question is answered instantly, day or night. College Query Intelligence is an AI-driven chatbot designed to be the ultimate digital assistant for navigating college life.
 
-## Features
-- Natural Language Processing: Understands and responds to complex student and faculty queries.
-- Local Execution: Powered by Ollama to run LLMs locally for enhanced performance and security.
-- Langflow Integration: Orchestrated using Langflow for a robust and modular conversation flow.
-- No-Code Architecture: Built using modular AI components for easy maintenance and scaling.
+## Why This Project Matters
+Navigating college administration can be complex. This chatbot simplifies that journey by providing accurate, instant responses to common queries. Most importantly, it runs entirely on local Large Language Models, meaning student questions stay private and the system remains cost-effective and resilient.
 
-## Technology Stack
-- Langflow (Orchestration)
-- Ollama (Local LLM Serving)
-- Python (Runtime Environment)
+## Core Capabilities
+- Natural Conversations: Uses advanced NLP to understand the intent behind student questions, not just keywords.
+- Privacy First: By utilizing Ollama for local LLM execution, we've eliminated the need for third-party cloud data processing.
+- Modular Design: Built with Langflow, the chatbot's logic can be easily updated or expanded as campus policies change.
 
-## Installation
-1. Install Ollama and pull the required model (e.g., Llama 3).
-2. Install Langflow via pip:
-   pip install langflow
-3. Import the provided flow file into your Langflow interface.
-4. Run the flow to start the chatbot.
+## Project Setup
+To get started, you will need Ollama running locally. Simply import our custom Langflow configuration and connect it to your local model (such as Llama 3) to begin serving students.
